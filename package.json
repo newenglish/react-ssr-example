@@ -1,0 +1,25 @@
+{
+  "name": "react-ssr-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:server": "webpack --config webpack.server.config.js -w",
+    "build:client": "webpack --config webpack.client.config.js -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
